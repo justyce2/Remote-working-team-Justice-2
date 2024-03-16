@@ -1,0 +1,44 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+/* Add font import @import url("./Code\ Pro\ LC.otf"); */
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("/fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: Code-Pro-LC;
+  src: url("/fonts/code-pro-lc.otf");
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.code-font {
+  font-family: "Code Pro LC", sans-serif;
+}
+
+.useCase > div {
+  max-width: 1500px;
+  height: 835px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-btn {
+  background: transparent
+    linear-gradient(62deg, #2d3636 0%, var(--unnamed-color-155357) 100%) 0% 0%
+    no-repeat padding-box;
+  background: transparent linear-gradient(62deg, #2d3636 0%, #155357 100%) 0% 0%
+    no-repeat padding-box;
+}

@@ -1,0 +1,10 @@
+.get-started > div {
+  width: 484px;
+  height: 196px;
+  background-color: white;
+  border-radius: 10px;
+  color: #131313;
+  border: 1px solid #a0c4c0;
+  padding: 25px 30px;
+  cursor: pointer;
+}

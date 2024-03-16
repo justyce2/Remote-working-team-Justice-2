@@ -1,0 +1,16 @@
+.footer-page-sec > div > h1 {
+  font-size: 27px;
+  margin-bottom: 28px;
+}
+.footer-page-sec > div > ul > * {
+  margin: 0 0 15px;
+}
+
+.footer-page-sec > div > ul > li {
+  height: 34px;
+  display: flex;
+  font-weight: 400;
+  font-size: 18px;
+  cursor: pointer;
+  align-items: center;
+}
